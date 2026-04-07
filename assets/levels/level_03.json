@@ -1,0 +1,21 @@
+{
+  "id": "level_03",
+  "displayName": "Marchand confirmé",
+  "difficulty": 3,
+  "fruits": [
+    { "id": "apple", "displayName": "Pomme", "price": 3 },
+    { "id": "orange", "displayName": "Orange", "price": 7 },
+    { "id": "banana", "displayName": "Banane", "price": 4 },
+    { "id": "cherry", "displayName": "Cerise", "price": 9 },
+    { "id": "apricot", "displayName": "Abricot", "price": 6 },
+    { "id": "grape", "displayName": "Raisin", "price": 11 }
+  ],
+  "initialCash": 200,
+  "initialStock": { "apple": 8, "orange": 8, "banana": 8, "cherry": 5, "apricot": 6, "grape": 4 },
+  "objectiveCash": 400,
+  "lossThresholdRatio": 0.5,
+  "offersPerSide": 4,
+  "buyTemplates": [[75, 88, 96, 115], [82, 92, 98, 108]],
+  "sellTemplates": [[125, 108, 102, 88], [118, 105, 99, 92]],
+  "roundingRule": "free_integers"
+}

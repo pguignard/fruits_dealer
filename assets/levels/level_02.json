@@ -1,0 +1,19 @@
+{
+  "id": "level_02",
+  "displayName": "On accélère",
+  "difficulty": 2,
+  "fruits": [
+    { "id": "apple", "displayName": "Pomme", "price": 3 },
+    { "id": "orange", "displayName": "Orange", "price": 5 },
+    { "id": "banana", "displayName": "Banane", "price": 4 },
+    { "id": "cherry", "displayName": "Cerise", "price": 8 }
+  ],
+  "initialCash": 150,
+  "initialStock": { "apple": 10, "orange": 10, "banana": 10, "cherry": 5 },
+  "objectiveCash": 300,
+  "lossThresholdRatio": 0.5,
+  "offersPerSide": 4,
+  "buyTemplates": [[80, 90, 95, 110]],
+  "sellTemplates": [[120, 105, 100, 85]],
+  "roundingRule": "multiples_of_5"
+}

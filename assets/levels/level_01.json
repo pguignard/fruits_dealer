@@ -1,0 +1,17 @@
+{
+  "id": "level_01",
+  "displayName": "Premiers pas",
+  "difficulty": 1,
+  "fruits": [
+    { "id": "apple", "displayName": "Pomme", "price": 2 },
+    { "id": "orange", "displayName": "Orange", "price": 5 }
+  ],
+  "initialCash": 100,
+  "initialStock": { "apple": 10, "orange": 10 },
+  "objectiveCash": 200,
+  "lossThresholdRatio": 0.5,
+  "offersPerSide": 2,
+  "buyTemplates": [[80, 110]],
+  "sellTemplates": [[120, 90]],
+  "roundingRule": "multiples_of_10"
+}
